@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="help.css"/>
+<meta name="section" content="Preferences"/>
+<link rel="contents" type="text/css" href="toc.html"/>
+<link rel="home" type="text/css" href="index.html"/>
+<link rel="glossary" href="glossary.html"/>
+<link rel="first" href="welcome.html"/>
+<link rel="previous" href="history.html"/>
+<link rel="next" href="security.html"/>
+<link rel="last" href="dialogs.html"/>
+<title>Preferences, Privacy</title>
+</head>
+<body>
+
+<h1 id="privacy">Privacy</h1>
+
+<p>
+These settings give you control over your privacy on the Internet.
+</p>
+
+<p>
+<span class="note">Tip:</span>
+Read Opera's tutorial for an excellent introduction to <a target="_blank" href="http://www.opera.com/support/tutorials/security/"> protecting your personal information and security</a> on the Internet.
+</p>
+
+<h2 id="privacy-referrer">Referrer logging</h2>
+
+<p>
+Some Web sites make a note of which page you came from, and behave accordingly.
+Turn referrer logging off if you do not want one site to know which other site you just came from.
+</p>
+
+<p>
+<span class="note">Note:</span>
+Some sites depend on referrer logging to work properly.
+</p>
+
+<h2 id="privacy-redirection">Automatic redirection</h2>
+
+<p>
+Some Web pages automatically redirect you to another page or site.
+Disable automatic redirection if you would rather have manual control by clicking redirection links.
+</p>
+
+<h2 id="privacy-trace">Caching password-protected pages</h2>
+
+<p>
+If you log in to use a Web site, the log-in page will always be deleted from Opera's cache when you exit.
+</p>
+
+<p>
+To make sure that Web pages you have visited within a password-protected site are also deleted, check the option to use cookies to trace password-protected pages.
+</p>
+
+<p>
+<span class="note">Note:</span>
+Checking this option will also prevent password-protected pages from appearing in your global history, and links to these pages will not be marked as visited.
+</p>
+
+<h2 id="privacy-cookie">General cookie handling</h2>
+
+<p>
+There are four overall ways of handling cookies:
+</p>
+
+<table class="nice">
+	<tr>
+		<th>Option</th>
+		<th>Explanation</th>
+	</tr>
+	<tr>
+		<td>Automatically accept all cookies</td>
+		<td>Accept cookies regardless of who sets them</td>
+	</tr>
+	<tr>
+		<td>Accept only cookies from selected servers</td>
+		<td>Create a list of servers to accept cookies from</td>
+	</tr>
+	<tr>
+		<td>Display received cookies</td>
+		<td>View each cookie before accepting or refusing</td>
+	</tr>
+	<tr>
+		<td>Do not accept cookies</td>
+		<td>Refuse all cookies without question</td>
+	</tr>
+</table>
+
+<p>
+The choices below fine-tune cookie handling.
+They are applied in addition to, and therefore depend on, the selections you made above:
+</p>
+
+<table class="nice">
+	<tr>
+		<th>Option</th>
+		<th>Explanation</th>
+	</tr>
+	<tr>
+		<td>Only accept cookies for the server</td>
+		<td>Accept cookies set by current server to itself, e.g. <span class="url">server.example.org</span>, but refuse cookies intended for other servers within the same domain, e.g. <span class="url">otherservers.example.org</span>, in addition to refusing third-party cookies (see below)</td>
+	</tr>
+	<tr>
+		<td>Do not accept third-party cookies</td>
+		<td>Accept cookies from all servers within current domain, e.g. <span class="url">example.org</span>, but refuse cookies from another domain, e.g. <span class="url">example.com</span></td>
+	</tr>
+	<tr>
+		<td>Display third-party cookies</td>
+		<td>View cookies from other domains before accepting or refusing</td>
+	</tr>
+	<tr>
+		<td>Accept from any servers</td>
+		<td>Accept cookies set by any server in any domain</td>
+	</tr>
+</table>
+
+<h2 id="privacy-filter">Cookie filter</h2>
+
+<p>
+You can handle cookies based on which site sets them, for example accepting cookies from <span class="url">trustable.example.org</span>, but refusing cookies from <span class="url">questionable.example.com</span>.
+</p>
+
+<ol>
+	<li>Click <input type="button" class="button" value="Edit server filters"/></li>
+	<li>Enter address to server</li>
+	<li>Click drop-down button and select rule you wish to apply</li>
+	<li>Click <input type="button" class="button" value="Add"/></li>
+</ol>
+
+<table class="nice">
+	<tr>
+		<th>Option</th>
+		<th>Explanation</th>
+	</tr>
+	
+	
+	
+	
+	<tr>
+		<td>Accept from server</td>
+		<td>Entering <span class="url">www.example.org</span> accepts cookies from <span class="url">www.example.org</span>, but not <span class="url">web.example.org</span></td>
+	</tr>
+	<tr>
+		<td>Accept from domains</td>
+		<td>Entering <span class="url">example.org</span> accepts cookies from both <span class="url">www.example.org</span> and <span class="url">web.example.org</span></td>
+	</tr>
+	<tr>
+		<td>Accept third party from server</td>
+		<td>Servers entered will be able to set third-party cookies</td>
+	</tr>
+	<tr>
+		<td>Accept third party from domain</td>
+		<td>All servers within domains entered will be able to set third-party cookies</td>
+	</tr>
+	<tr>
+		<td>Allow illegal paths</td>
+		<td>Control illegal usage of top level domains</td>
+	</tr>
+</table>
+
+<p>
+<span class="note">Note:</span>
+The &quot;Refuse&quot; rules have exactly the opposite effect of the &quot;Accept/Allow&quot; rules, and are therefore not listed here.
+</p>
+
+<h2>Additional cookie options</h2>
+
+<table class="nice">
+	<tr>
+		<th>Option</th>
+		<th>Explanation</th>
+	</tr>
+	<tr>
+		<td>Throw away new cookies on exit</td>
+		<td>All new or updated cookies will be deleted when you exit Opera</td>
+	</tr>
+	<tr>
+		<td>Display warning for illegal domains</td>
+		<td>Opera warns you if server attempts to set cookie where domain does not correctly match server</td>
+	</tr>
+	<tr>
+		<td>Display warning for illegal path</td>
+		<td>Opera warns you if server attempts to set cookie where there is a path mismatch</td>
+	</tr>
+</table>
+
+<p>
+<a target="_blank" href="http://www.opera.com/support/service/privacy/">Learn more about cookies</a>
+</p>
+
+<p class="copyright">Copyright &copy; 1995 - 2003 Opera Software ASA. <span class="nowrap">All rights reserved.</span></p>
+
+</body>
+</html>
+

@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="help.css"/>
+<meta name="section" content="Preferences"/>
+<link rel="contents" type="text/css" href="toc.html"/>
+<link rel="home" type="text/css" href="index.html"/>
+<link rel="glossary" href="glossary.html"/>
+<link rel="first" href="welcome.html"/>
+<link rel="previous" href="privacy.html"/>
+<link rel="next" href="wand.html"/>
+<link rel="last" href="dialogs.html"/>
+<title>Preferences, Security</title>
+</head>
+<body>
+
+<h1 id="security">Security</h1>
+
+<p>
+You can manage your security certificates and configure security protocols.
+Opera can also warn you about potentially insecure situations.
+</p>
+
+<p>
+<span class="note">Tip:</span>
+Read Opera's tutorial for an excellent introduction to <a target="_blank" href="http://www.opera.com/support/tutorials/security/"> protecting your personal information and security</a> on the Internet.
+</p>
+
+<h2 id="security-password">Security password</h2>
+
+<p>
+A security password prevents other people from using your certificates, as long as you select a good password and keep it secret.
+Click <input type="button" class="button" value="Set password"/> to enable a security password.
+</p>
+
+<p>
+If other people have access to your computer, it may be a good idea to tell Opera to ask for a password every time needed, that is every time you use certificates.
+</p>
+
+<p>
+You can also use the security password to protect your e-mail, news, and <a href="wand.html">Wand</a> passwords with strong encryption.
+</p>
+
+<p>
+<span class="note">Technical note:</span>
+If you set the security password to protect Wand data and e-mail passwords, Opera will use 168-bit triple DES (data encryption standard) encryption. Keys are derived from the security password.
+</p>
+
+<h2 id="security-protocols">Security protocols</h2>
+
+<p>
+Security protocols are used to communicate securely with sites where sensitive data, such as credit card information, is involved.
+</p>
+
+<h3>Enabling and disabling protocols</h3>
+
+<p>
+To enable a security protocol, check the respective checkbox.
+Supported protocols include:
+</p>
+
+<ol>
+	<li>Secure Socket Layer (SSL) 2.0</li>
+	<li>Secure Socket Layer (SSL) 3.0</li>
+	<li>Transport Layer Security (TLS) 1.0 - most secure</li>
+</ol>
+
+<p>
+Disable (uncheck) SSL 2 and SSL 3 if you wish to only use the most secure protocol (TLS) to establish secure connections.
+If you experience problems on secure sites, try turning SSL back on.
+</p>
+
+<h3>Configure protocols</h3>
+
+<p>
+You can click for example <input type="button" class="button" value="Configure SSL 2"/> and tell Opera not to accept certain ciphers.
+To prevent connections to less secure Web services, disable ciphers below 128 bits.
+</p>
+
+<p>
+<span class="note">Tip:</span>
+When you visit secure sites, the padlock icon on the Address bar locks.
+Move your mouse pointer over the security icon for detailed information about the current level of security.
+</p>
+
+<h2 id="security-certificates">Certificates</h2>
+
+<p>
+Generally, certificates are used to verify identities.
+</p>
+
+<h3>Authorities</h3>
+
+<p>
+Certificate authorities are used to identify secure Web sites.
+Most certificate authorities you need are installed with Opera.
+</p>
+
+<p>
+<span class="note">Example:</span>
+The secure version of the <a target="_blank" href="https://www.uio.no/">University of Oslo</a> Web site is authorized by the Thawte organization.
+</p>
+
+<table class="nice">
+<tr>
+	<th>Option</th>
+	<th>Explanation</th>
+</tr>
+<tr>
+	<td><input type="button" class="button" value="Import"/></td>
+	<td>Import certificates you have exported from other browsers or downloaded</td>
+</tr>
+<tr>
+	<td><input type="button" class="button" value="Export"/></td>
+	<td>Export certificates you wish to use in other browsers</td>
+</tr>
+<tr>
+	<td><input type="button" class="button" value="Delete"/></td>
+	<td>Delete certificates you no longer trust or wish to use</td>
+</tr>
+<tr>
+	<td>
+		<input type="checkbox" checked="checked"/>
+		Allow connections to sites certified by this authority
+	</td>
+	<td>Disable (uncheck) to block connections to all sites certified by authority</td>
+</tr>
+<tr>
+	<td>
+		<input type="checkbox"/>
+		Warn before sending data to sites certified by this authority
+	</td>
+	<td>Enable (check) if you want Opera to warn you before using authority</td>
+</tr>
+</table>
+
+<p>
+<span class="note">Note:</span>
+If you delete a certificate authority, you must reinstall Opera or download the certificate from the original provider to restore it.
+</p>
+
+<p>
+Read about <a href="dialogs.html#certificate">accepting certificates</a> for more information.
+</p>
+
+<h3>Personal</h3>
+
+<p>
+Personal certificates are used to identify you as the genuine user of a Web service.
+These certificates are normally installed the first time you sign up for the service.
+</p>
+
+<p>
+The options to import, export, and delete are basically the same as for certificate authorities (see above).
+</p>
+
+<p>
+<span class="note">Note:</span>
+If you delete a personal certificate, you must create a new one to use the corresponding Web service.
+</p>
+
+<h2 id="security-warnings">Security warnings</h2>
+
+<p>
+By default, Opera will warn you before you submit
+</p>
+
+<ul>
+	<li>a form insecurely</li>
+	<li>a Web page for validation</li>
+</ul>
+
+<p>
+Submitting forms to, for example, search engines and open discussion forums is harmless.
+</p>
+
+<p>
+<span class="note">Tip:</span>
+Enable the security warnings if you are concerned about unintentionally sending sensitive data over the Internet.
+</p>
+
+<p>
+<a target="_blank" href="http://www.opera.com/support/service/security/">Learn more about security</a>
+</p>
+
+<p class="copyright">Copyright &copy; 1995 - 2003 Opera Software ASA. <span class="nowrap">All rights reserved.</span></p>
+
+</body>
+</html>
+
